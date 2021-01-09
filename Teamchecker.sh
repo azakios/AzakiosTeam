@@ -4,7 +4,7 @@ NAME=Aafaq
 read $nickname
 echo "welcome $nickname"
 echo "smile"
-if [[ -z "$NAME"=="$nickname" ]]; then
+if [[ "$NAME"=="$nickname" ]] then
 
 echo "Hello Mr Aafaq,Nice To See U Sir"
 else 
