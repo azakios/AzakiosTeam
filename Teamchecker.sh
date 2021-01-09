@@ -1,10 +1,10 @@
 #!/bin/bash
-name=Aafaq
+NAME=Aafaq
  read -p "Enter Your nickname : " nickname
 read $nickname
 echo "welcome $nickname"
-
-if [[ -z "$name"=="$nickname" ]]; then
+echo "smile"
+if [[ -z "$NAME"=="$nickname" ]]; then
 
 echo "Hello Mr Aafaq,Nice To See U Sir"
 else 
