@@ -1,8 +1,9 @@
 #!/bin/bash
-echo -e "Enter Your name : \c" $name
-read $name
+name=Aafaq
+ read -p "Enter Your nickname : \c" 
+read $nickname
 
-if [[ $name=="Aafaq" ]] 
+if [[ $nickname==$name ]] 
 then
 echo "Hello Mr Aafaq,Nice To See U Sir"
 else 
