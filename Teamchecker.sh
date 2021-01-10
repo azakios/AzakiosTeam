@@ -1,8 +1,7 @@
 #!/bin/bash
 
  read -p "Enter Your nickname : " nickname
-echo "welcome $nickname"
-if [[ "$nickname"=="Aafaq" ]] 
+ if [[ "$nickname"=="Aafaq" ]] 
 then
  echo "Hello Mr Aafaq,Nice To See U Sir"
 else 
