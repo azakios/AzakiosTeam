@@ -1,15 +1,27 @@
-#! bin/bash
-trap 'printf "\n";stop;exit 1' 2
-trap user_interrupt SIGINT
-trap user_interrupt SIGTSTP
+#!/bin/bash
 
-user_interrupt(){
-        printf "\e[0m\n"
-        printf "\e[0m\e[1;36m\t Exiting !!\n"
-        sleep 2
-        printf "\e[0m\n"
-        exit 1
+banner()
+{
+  echo "+------------------------------------------+"
+  printf "| %-40s |\n" "`date`"
+  echo "|                                          |"
+  printf "|`tput bold` %-40s `tput sgr0`|\n" "$@"
+  echo "+------------------------------------------+"
 }
+
+banner "Starting the Job"
+sleep 3
+
+banner "Copying files"
+cp -v /etc/hosts /tmp
+cp -v /etc/passwd /tmp
+sleep 4
+
+banner "Downloading article"
+curl https://www.shellscript.sh/tips/banner/ > /tmp/banner.html
+sleep 5
+
+banner "Finished."
 banner() {
 
 clear
