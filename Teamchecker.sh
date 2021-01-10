@@ -10,11 +10,11 @@ banner()
 }
 
 
-printf "      |\e[33;1m••••••••••••••••••••••••••••••••••••\e[0m\n|"
-printf "      |\e[33;1m°°°|||||||°°°°°°°°°°°°°°°°°°°°°°°°°\e[0m\n|"
-printf "      |\e[33;1m°°|||||||||°°°°°°°°°°°°°°°°°°°°°°°°°\e[0m\n|"
-printf "      |\e[33;1m°°||_____||°°°°°°°°°°°°°°°°°°°°°°°°°\e[0m\n|"
-printf "      |\e[33;1m°°||/////||°°°°°°°°°°°°°°°°°°°°°°°°°\e[0m\n|"
+printf "       |\e[33;1m••••••••••••••••••••••••••••••••••••\e[0m\n|"
+printf "      |\e[33;1m°°°|||||||°°°/∆\°°||°°°°°°°°°°°°°°°\e[0m\n|"
+printf "      |\e[33;1m°°|||||||||°|/ \\°||°°°°°°°°°°°°°°°°°°\e[0m\n|"
+printf "      |\e[33;1m°°||_____||°||°°\\||°°°°°°°°°°°°°°°°\e[0m\n|"
+printf "      |\e[33;1m°°||/////||°||°°°\\|°°°°°°°°°°°°°°\e[0m\n|"
 printf "      |\e[33;1m°°||     ||ZAKIOS®°°°°°°°°°°°°°°°°°°\e[0m\n|"
 printf "      |\e[33;1m°°°°°°°A++++++++A°°°°°°°°°°°°°°°°°°°\e[0m\n|"
 printf "      |\e[33;1m°°°°°°°A°°°°°°°°C°°°°°°°°°°°°°°°°°°°\e[0m\n|"
@@ -31,11 +31,11 @@ printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Coded & Scripted  by Azakios@(mir.aafaq)\e[0m\n"
 printf "\n"
 
-}
+
 banner "Finished."
 
 string_a=Aafaq
-echo 'Enter Your Name : \c' 
+echo "Enter Your Name : \c"
 read string_b
 if [[ $string_a == $string_b ]]; then
   echo 'Welcome Azakios Sir'
