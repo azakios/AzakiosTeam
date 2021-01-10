@@ -1,4 +1,15 @@
 #! bin/bash
+trap 'printf "\n";stop;exit 1' 2
+trap user_interrupt SIGINT
+trap user_interrupt SIGTSTP
+
+user_interrupt(){
+        printf "\e[0m\n"
+        printf "\e[0m\e[1;36m\t Exiting !!\n"
+        sleep 2
+        printf "\e[0m\n"
+        exit 1
+}
 banner() {
 
 clear
