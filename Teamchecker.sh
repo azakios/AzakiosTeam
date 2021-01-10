@@ -1,9 +1,10 @@
-#!/bin/bash
-
- read -p "Enter Your nickname : " nickname
- if [[ "$nickname"=="Aafaq" ]] 
-then
- echo "Hello Mr Aafaq,Nice To See U Sir"
-else 
-  echo "welcome Dear User"
-  fi
+#! bin/bash
+string_a=Aafaq
+echo "Enter Your Name : " string_b
+read string_b
+if [[ $string_a == $string_b ]]; then
+  echo 'Welcome Azakios Member'
+else
+  echo 'Welcome Dear User'
+fi
+echo 'Bye'
