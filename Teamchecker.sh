@@ -1,4 +1,8 @@
 #!/bin/bash
+clear
+figlet -f big INFORMATION AND TECHNOLOGY | lolcat
+figlet -f big AZAKIOS TECH ORGANISATION
+echo -e "\e[92mSUBSCRIBE OUR YOUTUBE CHANNEL AZAKIOS"
 
 banner()
 {
