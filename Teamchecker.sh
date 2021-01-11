@@ -4,8 +4,6 @@ banner()
 {
   echo "+------------------------------------------+"
   printf "| %-40s |\n" "`date`"
-  echo "|                                          |"
- 
   echo "+------------------------------------------+"
 }
 
@@ -21,10 +19,10 @@ printf "      |\e[33;1m_________________________________|\e[0m\n|"
 printf "      |\e[33;1m_________________________________|\e[0m\n|"
 printf "      |\e[33;1m_________________________________|\e[0m\n|"
 printf "      |\e[33;1m_________________________________|\e[0m\n|"
-printf "      |\e[33;1m  ||||||||| ||\\°°°|| ||   ||    |\e[0m\n|"
-printf "      |\e[33;1m  ||     || || \\°°|| ||   ||    |\e[0m\n|"
-printf "      |\e[33;1m  ||     || ||°°\\°|| ||   ||    |\e[0m\n|"
-printf "      |\e[33;1m  ||     || ||°°°\\|| |||||||    |\e[0m\n|"
+printf "      |\e[33;1m  ||||||||| ||\\   || ||   ||    |\e[0m\n|"
+printf "      |\e[33;1m  ||     || || \\  || ||   ||    |\e[0m\n|"
+printf "      |\e[33;1m  ||     || ||  \\ || ||   ||    |\e[0m\n|"
+printf "      |\e[33;1m  ||     || ||   \\|| |||||||    |\e[0m\n|"
 printf "      |\e[33;1m_________________________________|\e[0m\n|"
 printf "      |\e[33;1m__________A______A_______________|\e[0m\n|"
 printf "      |\e[33;1m__________A      C_______________|\e[0m\n|"
@@ -44,8 +42,8 @@ printf "\n"
 
 banner "Finished"
 
-string_a=Aafaq
-echo -p "Enter Your Name : \c"
+string_a=Aafaq,Anu,Mushahid
+echo -p "Enter Your Name : "
 read string_b
 if [[ $string_a == $string_b ]]; then
   echo 'Welcome Azakios Sir'
